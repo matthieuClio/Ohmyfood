@@ -6,8 +6,9 @@
 }
 
 body {
+  margin: auto;
   max-width: 1400px;
-  font-size: 50px;
+  font-size: 17px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -18,19 +19,20 @@ h1, h2, h3 {
 
 h1 {
   font-family: "Shrikhand", cursive;
-  font-size: 80px;
+  font-size: 30px;
+  font-weight: normal;
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 25px;
 }
 
 /* Layout header */
 header {
-  padding: 50px 0 30px 0;
+  padding: 20px 0 10px 0;
   text-align: center;
   background-color: #FFFFFF;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.1));
 }
 
 /* Factored */
@@ -40,22 +42,22 @@ header {
 
 /* Component call to action button */
 .comp-call-to-action-btn {
-  margin-top: 80px;
-  padding: 40px 60px 40px 60px;
+  margin-top: 35px;
+  padding: 20px 30px 20px 30px;
   background: linear-gradient(to top left, #9356DC, #FF79DA);
   border: none;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.2));
   border-radius: 2em;
   color: #FFFFFF;
-  font-size: 45px;
+  font-size: 18px;
 }
 
 /* HOME PAGE */
 .location {
-  padding: 50px 0 50px 0;
+  padding: 15px 0 15px 0;
   background-color: #EAEAEA;
   color: #353535;
-  font-size: 45px;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -63,15 +65,22 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 100px 55px 160px 55px;
+  padding: 40px 0 60px 0;
   background-color: #F7F7F7;
 }
 .call-to-action__h2 {
-  max-width: 700px;
+  max-width: 300px;
 }
 .call-to-action__paragraph {
-  margin-top: 35px;
-  font-size: 50px;
+  max-width: 350px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.functioning {
+  padding: 100px 55px 160px 55px;
+  height: 300px;
+  background-color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
