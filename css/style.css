@@ -7,12 +7,34 @@
 
 body {
   max-width: 1400px;
-  font-size: 14px;
+  font-size: 50px;
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
+  padding: 0;
+  margin: 0;
   font-family: "Shrikhand", cursive;
+  font-size: 80px;
+}
+
+/* Layout header */
+header {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #FFFFFF;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3));
+}
+
+/* Component */
+.location {
+  padding: 50px 0 50px 0;
+  background-color: #EAEAEA;
+  color: #353535;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
