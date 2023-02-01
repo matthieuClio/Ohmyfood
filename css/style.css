@@ -79,7 +79,7 @@ header {
 }
 .comp-order__number {
   position: absolute;
-  left: -10px;
+  left: -12px;
   width: 20px;
   height: 20px;
   padding: 2px;
@@ -100,8 +100,12 @@ header {
   padding: 15px 0 15px 0;
   background-color: #EAEAEA;
   color: #353535;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
+}
+.location .fa-location-dot {
+  margin-right: 15px;
+  font-size: 17px;
 }
 
 .call-to-action {
@@ -111,7 +115,7 @@ header {
   background-color: #F7F7F7;
 }
 .call-to-action__h2 {
-  padding: 0 35px 0 35px;
+  padding: 0 40px 0 40px;
 }
 .call-to-action__paragraph {
   margin-top: 15px;
