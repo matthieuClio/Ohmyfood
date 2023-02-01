@@ -52,6 +52,10 @@ header {
   padding-bottom: 60px;
 }
 
+.margin-top-comp-order {
+  margin-top: 25px;
+}
+
 /* Component call to action button */
 .comp-call-to-action-btn {
   margin-top: 35px;
@@ -69,7 +73,6 @@ header {
   display: flex;
   justify-content: start;
   position: relative;
-  margin-top: 35px;
   padding: 30px 20px 25px 30px;
   min-width: 270px;
   border-radius: 15px;
@@ -125,13 +128,16 @@ header {
 .functioning {
   padding-left: 20px;
   padding-right: 20px;
-  height: 300px;
   background-color: #FFFFFF;
+}
+.functioning__h2 {
+  margin-bottom: 35px;
 }
 
 .container-order {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
