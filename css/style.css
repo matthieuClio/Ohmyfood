@@ -96,10 +96,9 @@ header {
   background-color: #F7F7F7;
 }
 .call-to-action__h2 {
-  max-width: 300px;
+  padding: 0 35px 0 35px;
 }
 .call-to-action__paragraph {
-  max-width: 350px;
   margin-top: 15px;
   font-size: 18px;
 }
