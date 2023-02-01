@@ -67,17 +67,32 @@ header {
 /* Component order */
 .comp-order {
   display: flex;
-  margin-top: 20px;
+  justify-content: start;
+  position: relative;
+  margin-top: 35px;
   padding: 30px 20px 25px 30px;
-  min-width: 250px;
+  min-width: 270px;
   border-radius: 15px;
   background-color: #F7F7F7;
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
   font-weight: normal;
 }
+.comp-order__number {
+  position: absolute;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 2em;
+  background-color: #9356DC;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 21px;
+}
 .comp-order__icon {
   margin-right: 30px;
   color: #7E7E7E;
+  font-size: 22px;
 }
 
 /* HOME PAGE */
