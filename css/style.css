@@ -31,6 +31,10 @@ h3 {
   font-size: 16px;
 }
 
+img {
+  width: 100%;
+}
+
 /* Layout header */
 header {
   padding: 20px 0 10px 0;
@@ -45,15 +49,27 @@ header {
 }
 
 .padding-top {
-  padding-top: 40px;
+  padding-top: 45px;
 }
 
 .padding-bottom {
   padding-bottom: 60px;
 }
 
+.padding-left {
+  padding-left: 20px;
+}
+
+.padding-right {
+  padding-right: 20px;
+}
+
 .margin-top-comp-order {
   margin-top: 25px;
+}
+
+.margin-bottom-title {
+  margin-bottom: 25px;
 }
 
 /* Component call to action button */
@@ -98,6 +114,37 @@ header {
   font-size: 22px;
 }
 
+/* Component restaurants card */
+.comp-restaurants-card {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  border-radius: 20px;
+  overflow: hidden;
+  filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
+}
+.comp-restaurants-card__image-container {
+  display: flex;
+  height: 190px;
+}
+.comp-restaurants-card__description {
+  display: flex;
+  padding: 17px 25px 15px 10px;
+  background-color: #FFFFFF;
+}
+.comp-restaurants-card__description__container {
+  width: 90%;
+}
+.comp-restaurants-card__description__container__h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.comp-restaurants-card__description__icon {
+  margin-top: 5px;
+  width: 10%;
+  font-size: 22px;
+}
+
 /* HOME PAGE */
 .location {
   padding: 15px 0 15px 0;
@@ -126,18 +173,22 @@ header {
 }
 
 .functioning {
-  padding-left: 20px;
-  padding-right: 20px;
   background-color: #FFFFFF;
-}
-.functioning__h2 {
-  margin-bottom: 35px;
 }
 
 .container-order {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.restaurant {
+  background-color: #F7F7F7;
+}
+
+.container-restaurants-card {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
