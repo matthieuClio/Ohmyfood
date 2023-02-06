@@ -106,6 +106,10 @@ footer .footer-container__li__icon {
   font-family: "Shrikhand", cursive;
 }
 
+.font-weight-bold {
+  font-weight: bold;
+}
+
 /* Component call to action button */
 .comp-call-to-action-btn {
   margin-top: 35px;
@@ -159,7 +163,18 @@ footer .footer-container__li__icon {
 }
 .comp-restaurants-card__image-container {
   display: flex;
+  position: relative;
   height: 190px;
+}
+.comp-restaurants-card__image-container__tags {
+  position: absolute;
+  top: 15px;
+  right: 13px;
+  padding: 7px 11px 7px 11px;
+  border-radius: 2px;
+  font-size: 14px;
+  background-color: #99E2D0;
+  color: #008766;
 }
 .comp-restaurants-card__description {
   display: flex;
@@ -185,7 +200,6 @@ footer .footer-container__li__icon {
   background-color: #EAEAEA;
   color: #353535;
   font-size: 15px;
-  font-weight: bold;
 }
 .location .fa-location-dot {
   margin-right: 15px;
