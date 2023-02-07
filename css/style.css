@@ -24,6 +24,7 @@ h1 {
 
 h2 {
   font-size: 25px;
+  font-weight: normal;
 }
 
 h3 {
@@ -79,6 +80,11 @@ footer .footer-container__li__icon {
   margin-right: 10px;
   width: 15px;
   font-size: 12px;
+}
+
+/* Menu */
+.menu {
+  background-color: #F7F7F7;
 }
 
 /* Factored */
