@@ -81,6 +81,11 @@ footer .footer-container__li__icon {
   font-size: 12px;
 }
 
+/* Menu */
+.menu {
+  background-color: #F7F7F7;
+}
+
 /* Factored */
 .padding-top {
   padding-top: 45px;
@@ -124,6 +129,10 @@ footer .footer-container__li__icon {
 
 .font-weight-bold {
   font-weight: bold;
+}
+
+.font-weight-normal {
+  font-weight: normal;
 }
 
 .display-none {
