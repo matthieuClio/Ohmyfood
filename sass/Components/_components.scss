@@ -1,0 +1,95 @@
+/* Component call to action button */
+.comp-call-to-action-btn {
+    margin-top: 35px;
+    padding: 20px 30px 20px 30px;
+    background: linear-gradient(to top left, $primary, $secondary);
+    border: none;
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.2));
+    border-radius: 2em;
+    color: $quatertiary;
+    font-size: 18px;
+}
+
+/* Component order */
+.comp-order {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    padding: 30px 20px 25px 30px;
+    min-width: 270px;
+    border-radius: 15px;
+    background-color: $dark-background-color;
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
+    font-weight: normal;
+
+    &__number {
+        position: absolute;
+        left: -12px;
+        width: 20px;
+        height: 20px;
+        padding: 2px ;
+        border-radius: 2em;
+        background-color: $primary;
+        color: $quatertiary;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    &__icon {
+        margin-right: 30px;
+        color: $compOrderIcon;
+        font-size: 22px;
+    }
+}
+
+/* Component restaurants card */
+.comp-restaurants-card {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    border-radius: 20px;
+    overflow: hidden;
+    filter: drop-shadow(0px 3px 8px rgb(0, 0, 0, 0.15));
+
+    &__image-container {
+        display: flex;
+        position: relative;
+        height: 190px;
+
+        &__tags {
+            position: absolute;
+            top: 15px;
+            right: 13px;
+            padding: 7px 11px 7px 11px;
+            border-radius: 2px;
+            font-size: 14px;
+            background-color: $compRestaurantCardTags;
+            color: $compRestaurantCardTagsSecondary;
+        }
+
+        &__image {
+            object-fit: cover;
+        }
+    }
+
+    &__description {
+        display: flex;
+        padding: 17px 25px 15px 10px;
+        background-color: $quatertiary;
+
+        &__container {
+            width: 90%;
+
+            &__h3 {
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+        }
+
+        &__icon {
+            margin-top: 5px;
+            width: 10%;
+            font-size: 22px;
+        }
+    }
+}

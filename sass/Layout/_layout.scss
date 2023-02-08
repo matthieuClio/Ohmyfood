@@ -1,0 +1,174 @@
+/* Layout header */
+header {
+    position: relative;
+    padding: 9px 0 9px 0;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.1));
+
+    .header-h1 {
+        padding-top: 10px;
+    }
+
+    .header-icon {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding-top: 7px;
+        margin-left: 20px;
+        font-size: 21px;
+    }
+}
+
+/* Layout footer */
+footer {
+    background-color: $dark;
+    color: $quatertiary;
+
+    .footer-container {
+        padding: 23px 20px 25px 20px;
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        &__li {
+            font-size: 15px;
+
+            &__icon {
+                margin-right: 10px;
+                width: 15px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+/* Menu */
+.container {
+    position: relative;
+
+    &__figcaption {
+        position: absolute;
+        top: 0;
+        max-height: 300px;
+        overflow: hidden;
+    }
+
+    &__menu {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+        padding: 30px 15px 50px 15px;
+        background-color: $menuBackgroundColor;
+        border-top-right-radius: 2.3em;
+        border-top-left-radius: 2.3em;
+
+        &__title {
+            display: flex;
+            justify-content: space-between;
+            font-size: 28px;
+    
+            &__h2 {
+                font-size: 28px;
+            }
+    
+            &__icon {
+                margin-right: 25px;
+            }
+        }
+
+        &__h3 {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        &__design-element {
+            margin-top: 5px;
+            width: 37.4px;
+            border-bottom: 3px solid $tertiary;
+        }
+
+        &__ul {
+            margin-top: 12px;
+            // border: 2px solid purple;
+
+            &__li {
+                padding: 12px 10px 12px 10px;
+                background-color: $quatertiary;
+                border-radius: 13px;
+                filter: drop-shadow(0px 3px 8px rgb(0, 0, 0, 0.15));
+                font-size: 14px;
+
+                &__details {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 5px;
+
+                    &__price {
+                        margin-right: 12px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Factored */
+.padding-top {
+    padding-top: 45px;
+}
+
+.padding-bottom {
+    padding-bottom: 60px;
+}
+
+.padding-left {
+    padding-left: 20px;
+}
+
+.padding-right {
+    padding-right: 20px;
+}
+
+.margin-top-comp-order {
+    margin-top: 25px;
+}
+
+.margin-bottom-title {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-footer {
+    margin-bottom: 8px;
+}
+
+.margin-bottom-comp-restaurants-cards {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-layout-menu {
+    margin-bottom: 12px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.font-family-shrikhand {
+    font-family: 'Shrikhand', cursive;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.display-none {
+    display: none;
+}

@@ -1,0 +1,65 @@
+/* HOME PAGE */
+.location {
+    padding: 15px 0 15px 0;
+    background-color: $headerBackground;
+    color: $dark;
+    font-size: 15px;
+
+    .fa-location-dot {
+        margin-right: 15px;
+        font-size: 17px;
+    }
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $dark-background-color;
+
+    &__h2 {
+        padding: 0 40px 0 40px;
+    }
+
+    &__paragraph {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+}
+
+.functioning {
+    background-color: $quatertiary;
+}
+
+.container-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurant {
+    background-color: $dark-background-color;
+}
+
+.container-restaurants-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MENU À LA FRANCAISE */
+.footer-page-menu-francaise {
+    position: relative;
+    top: 200px;
+}
+
+
+.comp-container-page {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-btn-modif-page {
+    padding: 15px 45px 15px 45px;
+    font-size: 15px;
+}
