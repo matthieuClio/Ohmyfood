@@ -47,7 +47,7 @@ footer {
     }
 }
 
-/* Menu */
+/* Layout menu */
 .container {
     position: relative;
 
@@ -77,9 +77,38 @@ footer {
             &__h2 {
                 font-size: 28px;
             }
-    
-            &__icon {
+            
+            &__favories {
+                display: flex;
+                position: relative;
                 margin-right: 25px;
+                height: 27px;
+                // overflow: hidden;
+
+                &__icon-primary {
+                    z-index: 4;
+                    transition: opacity 500ms;
+
+                    &:hover {
+                        opacity: 0;
+                    }
+
+                    &:hover + .container__menu__title__favories__icon-secondary {
+                        opacity: 1;
+                    }
+                }
+
+                &__icon-secondary {
+                    position: absolute;
+                    top: 0;
+                    z-index: 3;
+                    background: linear-gradient(to bottom, $primary, $secondary);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    opacity: 0;
+                    transition: opacity 500ms;
+                }
             }
         }
 

@@ -89,7 +89,7 @@ footer .footer-container__li__icon {
   font-size: 12px;
 }
 
-/* Menu */
+/* Layout menu */
 .container {
   position: relative;
 }
@@ -118,8 +118,32 @@ footer .footer-container__li__icon {
 .container__menu__title__h2 {
   font-size: 28px;
 }
-.container__menu__title__icon {
+.container__menu__title__favories {
+  display: flex;
+  position: relative;
   margin-right: 25px;
+  height: 27px;
+}
+.container__menu__title__favories__icon-primary {
+  z-index: 4;
+  transition: opacity 500ms;
+}
+.container__menu__title__favories__icon-primary:hover {
+  opacity: 0;
+}
+.container__menu__title__favories__icon-primary:hover + .container__menu__title__favories__icon-secondary {
+  opacity: 1;
+}
+.container__menu__title__favories__icon-secondary {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  background: linear-gradient(to bottom, #9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+  transition: opacity 500ms;
 }
 .container__menu__h3 {
   margin-top: 20px;
