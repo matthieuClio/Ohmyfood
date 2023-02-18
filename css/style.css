@@ -46,6 +46,12 @@ ul {
   list-style-type: none;
 }
 
+@keyframes menu {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /* Layout header */
 header {
   position: relative;
@@ -163,6 +169,9 @@ footer .footer-container__li__icon {
   border-radius: 13px;
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
   font-size: 14px;
+  transform: translateY(20%);
+  opacity: 0;
+  animation: menu 1.5s 200ms both;
 }
 .container__menu__ul__li__details {
   display: flex;
@@ -172,6 +181,12 @@ footer .footer-container__li__icon {
 .container__menu__ul__li__details__price {
   margin-right: 12px;
   font-size: 15px;
+}
+.container__menu__ul__delay-one {
+  animation-delay: 400ms;
+}
+.container__menu__ul__delay-two {
+  animation-delay: 600ms;
 }
 
 /* Factored */

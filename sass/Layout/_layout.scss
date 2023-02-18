@@ -125,7 +125,6 @@ footer {
 
         &__ul {
             margin-top: 12px;
-            // border: 2px solid purple;
 
             &__li {
                 padding: 12px 10px 12px 10px;
@@ -133,6 +132,9 @@ footer {
                 border-radius: 13px;
                 filter: drop-shadow(0px 3px 8px rgb(0, 0, 0, 0.15));
                 font-size: 14px;
+                transform: translateY(20%);
+                opacity: 0;
+                animation: menu 1.5s 200ms both;
 
                 &__details {
                     display: flex;
@@ -144,6 +146,14 @@ footer {
                         font-size: 15px;
                     }
                 }
+            }
+
+            &__delay-one {
+                animation-delay: 400ms;
+            }
+
+            &__delay-two {
+                animation-delay: 600ms;
             }
         }
     }
