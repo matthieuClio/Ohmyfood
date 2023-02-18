@@ -21,3 +21,12 @@ $compRestaurantCardTagsSecondary: #008766;
 
 // Layout menu
 $menuBackgroundColor: #F7F7F7;
+
+// Keyframe
+@keyframes menu {
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
