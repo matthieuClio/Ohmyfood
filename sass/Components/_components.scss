@@ -87,6 +87,9 @@
         }
 
         &__icon {
+            display: flex;
+            justify-content: center;
+            position: relative;
             margin-top: 5px;
             width: 10%;
             font-size: 22px;
