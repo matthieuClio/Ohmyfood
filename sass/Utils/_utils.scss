@@ -30,3 +30,25 @@ $menuBackgroundColor: #F7F7F7;
         transform: translateY(0);
     }
 }
+
+// Mixin
+
+// - Background linear-gradient -
+@mixin backgroundLinearGradient($direction, $colorOne, $colorTwo) {
+
+    background: linear-gradient($direction, $colorOne, $colorTwo);
+}
+
+// - Heart animation -
+@mixin heartAnimation {
+    
+    transition: opacity 500ms;
+    
+    &:hover {
+        opacity: 0;
+    }
+
+    &:hover + .container__menu__title__favories__icon-secondary {
+        opacity: 1;
+    }
+}
