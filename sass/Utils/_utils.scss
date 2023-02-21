@@ -31,6 +31,13 @@ $menuBackgroundColor: #F7F7F7;
     }
 }
 
+@keyframes iconRotation {
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 // Mixin
 
 // - Background linear-gradient -

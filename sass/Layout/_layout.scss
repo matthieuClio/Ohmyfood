@@ -118,7 +118,8 @@ footer {
             margin-top: 12px;
 
             &__li {
-                padding: 12px 10px 12px 10px;
+                display: flex;
+                justify-content: space-between;
                 background-color: $quatertiary;
                 border-radius: 13px;
                 filter: drop-shadow(0px 3px 8px rgb(0, 0, 0, 0.15));
@@ -126,15 +127,64 @@ footer {
                 transform: translateY(20%);
                 opacity: 0;
                 animation: menu 1.5s 200ms both;
+                overflow: hidden;
 
-                &__details {
+                &:hover .container__menu__ul__li__price {
+                    width: 110px;
+                }
+
+                &:hover .container__menu__ul__li__price__secondary__icon {
+                    animation: iconRotation 700ms forwards;
+                }
+
+                &__name {
+                    padding: 12px 0 12px 10px;
                     display: flex;
-                    justify-content: space-between;
-                    margin-top: 5px;
+                    flex-direction: column;
+                    overflow: hidden;
 
-                    &__price {
-                        margin-right: 12px;
-                        font-size: 15px;
+                    &__primary {
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+
+                    &__secondary {
+                        margin-top: 5px;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                }
+
+                &__price {
+                    width: 45px;
+                    display: flex;
+                    font-size: 15px;
+                    transition: width 700ms ease-in-out;
+
+                    &__primary {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 28px 10px 0 10px;
+                        width: 35px;
+                    }
+
+                    &__secondary {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        width: 100%;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        background-color: $tertiary;
+
+                        &__icon {
+                            font-size: 25px;
+                            color: $quatertiary;
+                        }
                     }
                 }
             }

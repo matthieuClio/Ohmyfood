@@ -52,6 +52,11 @@ ul {
     transform: translateY(0);
   }
 }
+@keyframes iconRotation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* Layout header */
 header {
   position: relative;
@@ -164,7 +169,8 @@ footer .footer-container__li__icon {
   margin-top: 12px;
 }
 .container__menu__ul__li {
-  padding: 12px 10px 12px 10px;
+  display: flex;
+  justify-content: space-between;
   background-color: #FFFFFF;
   border-radius: 13px;
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
@@ -172,15 +178,57 @@ footer .footer-container__li__icon {
   transform: translateY(20%);
   opacity: 0;
   animation: menu 1.5s 200ms both;
+  overflow: hidden;
 }
-.container__menu__ul__li__details {
+.container__menu__ul__li:hover .container__menu__ul__li__price {
+  width: 110px;
+}
+.container__menu__ul__li:hover .container__menu__ul__li__price__secondary__icon {
+  animation: iconRotation 700ms forwards;
+}
+.container__menu__ul__li__name {
+  padding: 12px 0 12px 10px;
   display: flex;
-  justify-content: space-between;
-  margin-top: 5px;
+  flex-direction: column;
+  overflow: hidden;
 }
-.container__menu__ul__li__details__price {
-  margin-right: 12px;
+.container__menu__ul__li__name__primary {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.container__menu__ul__li__name__secondary {
+  margin-top: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.container__menu__ul__li__price {
+  width: 45px;
+  display: flex;
   font-size: 15px;
+  transition: width 700ms ease-in-out;
+}
+.container__menu__ul__li__price__primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 10px 0 10px;
+  width: 35px;
+}
+.container__menu__ul__li__price__secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #99E2D0;
+}
+.container__menu__ul__li__price__secondary__icon {
+  font-size: 25px;
+  color: #FFFFFF;
 }
 .container__menu__ul__delay-one {
   animation-delay: 400ms;
