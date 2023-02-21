@@ -31,10 +31,33 @@ $menuBackgroundColor: #F7F7F7;
     }
 }
 
-@keyframes iconRotation {
+@keyframes menuIconRotation {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes spinerLoading {
+
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: collapse;
+    }
+}
+
+@keyframes spinerLoadingIcon {
+
+    70% {
+        transform: rotate(720deg) scale(0.5);
+    }
+
+    100% {
+        transform: rotate(1080deg) scale(0);
     }
 }
 

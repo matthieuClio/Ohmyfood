@@ -134,7 +134,7 @@ footer {
                 }
 
                 &:hover .container__menu__ul__li__price__secondary__icon {
-                    animation: iconRotation 700ms forwards;
+                    animation: menuIconRotation 700ms forwards;
                 }
 
                 &__name {
@@ -197,6 +197,30 @@ footer {
                 animation-delay: 600ms;
             }
         }
+    }
+}
+
+/* Layout spiner loading */
+.spiner-loding {
+    z-index: 1;
+    visibility: collapse;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(147,86,220, 0.4);
+    animation: spinerLoading 3s ease-in-out forwards;
+
+    &__icon {
+        margin-top: 85px;
+        color: purple;
+        font-size: 100px;
+        @include backgroundLinearGradient(to top, $primary, $secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: spinerLoadingIcon 1.5s ease-in-out forwards;
     }
 }
 
