@@ -366,6 +366,7 @@ header .header-icon {
   padding: 20px 30px 20px 30px;
   background: linear-gradient(to top left, #9356DC, #FF79DA);
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.2));
+  border: none; /* Use in a button - menu page */
   border-radius: 2em;
   color: #FFFFFF;
   font-size: 18px;

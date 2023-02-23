@@ -4,6 +4,7 @@
     padding: 20px 30px 20px 30px;
     @include backgroundLinearGradient(to top left, $primary, $secondary);
     filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.2));
+    border: none;   /* Use in a button - menu page */
     border-radius: 2em;
     color: $quatertiary;
     font-size: 18px;
@@ -67,7 +68,6 @@
     filter: drop-shadow(0px 3px 8px rgb(0, 0, 0, 0.15));
 
     &:hover .comp-restaurants-card__description {
-        // background-color: $primary;
         background-color: $tertiary;
         color: $quatertiary;
     }
