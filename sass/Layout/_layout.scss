@@ -73,6 +73,14 @@ footer {
         border-top-right-radius: 2.3em;
         border-top-left-radius: 2.3em;
 
+        @media screen and (min-width: 768px) {
+            padding: 50px 30px 50px 30px;
+            max-width: 650px;
+            margin: auto;
+            margin-bottom: 110px;
+            border-radius: 2.3em;
+        }
+
         &__title {
             display: flex;
             justify-content: space-between;

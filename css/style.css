@@ -147,6 +147,15 @@ footer .footer-container__li__a {
   border-top-right-radius: 2.3em;
   border-top-left-radius: 2.3em;
 }
+@media screen and (min-width: 768px) {
+  .container__menu {
+    padding: 50px 30px 50px 30px;
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 110px;
+    border-radius: 2.3em;
+  }
+}
 .container__menu__title {
   display: flex;
   justify-content: space-between;
