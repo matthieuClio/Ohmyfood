@@ -219,6 +219,9 @@ header .header-icon {
   animation: menu 1.5s 200ms both;
   overflow: hidden;
 }
+.container__menu__ul__li:hover {
+  color: #99E2D0;
+}
 .container__menu__ul__li:hover .container__menu__ul__li__price {
   width: 110px;
 }
