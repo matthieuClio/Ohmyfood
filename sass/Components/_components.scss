@@ -1,18 +1,23 @@
 /* Component call to action button */
 .comp-call-to-action-btn {
-    display: flex;
-    padding: 20px 30px 20px 30px;
-    @include backgroundLinearGradient(to top left, $primary, $secondary);
+    margin-top: 35px;
     border: none;
-    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.2));
-    border-radius: 2em;
-    color: $quatertiary;
-    font-size: 18px;
-    transition: filter 350ms;
+    background: none;
     
-    &:hover {
-        filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.3)) brightness(1.1);
-    }    
+    &__a {
+        display: flex;
+        padding: 20px 30px 20px 30px;
+        @include backgroundLinearGradient(to top left, $primary, $secondary);
+        filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.2));
+        border-radius: 2em;
+        color: $quatertiary;
+        font-size: 18px;
+        transition: filter 350ms;
+        
+        &:hover {
+            filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.3)) brightness(1.1);
+        }    
+    }
 }
 
 /* Component order */
