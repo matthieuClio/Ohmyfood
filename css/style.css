@@ -412,6 +412,10 @@ footer .footer-container__li__a {
   overflow: hidden;
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
 }
+.comp-restaurants-card:hover .comp-restaurants-card__description {
+  background-color: #99E2D0;
+  color: #FFFFFF;
+}
 @media screen and (min-width: 768px) {
   .comp-restaurants-card {
     /* Fact margin top and bottom affected to this element */
@@ -441,6 +445,7 @@ footer .footer-container__li__a {
   display: flex;
   padding: 17px 25px 15px 10px;
   background-color: #FFFFFF;
+  transition: color 400ms, background-color 400ms;
 }
 .comp-restaurants-card__description__container {
   width: 90%;
