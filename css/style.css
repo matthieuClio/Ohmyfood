@@ -484,6 +484,11 @@ footer .footer-container__li__a {
   padding-bottom: 45px;
   background-color: #F7F7F7;
 }
+@media screen and (min-width: 768px) {
+  .restaurant__title {
+    text-align: center;
+  }
+}
 
 .container-restaurants-card {
   display: flex;
