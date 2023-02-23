@@ -111,14 +111,14 @@ footer .footer-container {
   flex-direction: column;
 }
 footer .footer-container__title {
-  margin-bottom: 15px;
+  margin-bottom: 17px;
   font-size: 16px;
 }
 footer .footer-container__li {
   font-size: 15px;
 }
 footer .footer-container__li__icon {
-  margin-right: 10px;
+  margin-right: 5px;
   width: 15px;
   font-size: 12px;
 }
@@ -312,7 +312,7 @@ footer .footer-container__li__a {
 }
 
 .margin-bottom-footer {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .margin-bottom-comp-restaurants-cards {
