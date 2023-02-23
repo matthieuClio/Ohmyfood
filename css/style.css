@@ -360,11 +360,6 @@ footer .footer-container__li__icon {
 /* Component call to action button */
 .comp-call-to-action-btn {
   margin-top: 35px;
-  border: none;
-  background: none;
-}
-.comp-call-to-action-btn__a {
-  display: flex;
   padding: 20px 30px 20px 30px;
   background: linear-gradient(to top left, #9356DC, #FF79DA);
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.2));
@@ -373,7 +368,7 @@ footer .footer-container__li__icon {
   font-size: 18px;
   transition: filter 350ms;
 }
-.comp-call-to-action-btn__a:hover {
+.comp-call-to-action-btn:hover {
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.3)) brightness(1.1);
 }
 
