@@ -475,6 +475,8 @@ footer .footer-container__li__a {
 }
 
 .restaurant {
+  padding-top: 50px;
+  padding-bottom: 45px;
   background-color: #F7F7F7;
 }
 
