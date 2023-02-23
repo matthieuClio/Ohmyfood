@@ -1,6 +1,6 @@
 /* Component call to action button */
 .comp-call-to-action-btn {
-    margin-top: 35px;
+    display: flex;
     padding: 20px 30px 20px 30px;
     @include backgroundLinearGradient(to top left, $primary, $secondary);
     border: none;

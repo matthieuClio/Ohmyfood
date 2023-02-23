@@ -31,7 +31,9 @@
         <!-- Layout header -->
         <header>
             <i class="fa-solid fa-arrow-left header-icon display-none"></i>
-            <h1 class="header-h1 font-family-shrikhand text-align-center">ohmyfood</h1>
+            <a href="index.html">
+                <h1 class="header-h1 font-family-shrikhand text-align-center">ohmyfood</h1>
+            </a>
         </header>
         
         <main>
@@ -52,9 +54,11 @@
                 </p>
 
                 <!-- Component call to action button -->
-                <button class="comp-call-to-action-btn">
-                    Explorer nos restaurants
-                </button>
+                <a href="#restaurants" class="call-to-action__a">
+                    <button class="comp-call-to-action-btn cursor-pointer">
+                        Explorer nos restaurants
+                    </button>
+                </a>
             </section>
 
             <!-- Functioning -->
@@ -98,8 +102,10 @@
             </section>
 
             <!-- Restaurants -->
-            <section class="restaurant padding-left padding-right">
-                <h2 class="restaurant__title margin-bottom-title font-weight-bold">Restaurants</h2>
+            <section id="restaurants" class="restaurant padding-left padding-right">
+                <h2 class="restaurant__title margin-bottom-title font-weight-bold">
+                    Restaurants
+                </h2>
 
                 <div class="container-restaurants-card">
                     <!-- Component restaurants-cards -->
