@@ -101,29 +101,29 @@ header .header-icon {
 }
 
 /* Layout footer */
-footer {
+.footer {
   background-color: #353535;
   color: #FFFFFF;
 }
-footer .footer-container {
+.footer__container {
   padding: 23px 20px 25px 20px;
   display: flex;
   flex-direction: column;
 }
-footer .footer-container__title {
+.footer__container__title {
   margin-bottom: 17px;
   font-size: 16px;
 }
-footer .footer-container__li {
+.footer__container__li {
   font-size: 15px;
 }
-footer .footer-container__li__a:hover {
+.footer__container__li__a:hover {
   background: linear-gradient(to top left, #9356DC, #FF79DA);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-footer .footer-container__li__icon {
+.footer__container__li__icon {
   margin-right: 5px;
   width: 15px;
   font-size: 12px;

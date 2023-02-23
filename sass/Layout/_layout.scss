@@ -21,11 +21,11 @@ header {
 }
 
 /* Layout footer */
-footer {
+.footer {
     background-color: $dark;
     color: $quatertiary;
 
-    .footer-container {
+    &__container {
         padding: 23px 20px 25px 20px;
         display: flex;
         flex-direction: column;
