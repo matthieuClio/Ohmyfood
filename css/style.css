@@ -467,6 +467,11 @@ footer .footer-container__li__a {
 .functioning {
   background-color: #FFFFFF;
 }
+@media screen and (min-width: 768px) {
+  .functioning__title {
+    text-align: center;
+  }
+}
 
 .container-order {
   display: flex;
