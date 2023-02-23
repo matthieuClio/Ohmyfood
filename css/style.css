@@ -118,7 +118,10 @@ footer .footer-container__li {
   font-size: 15px;
 }
 footer .footer-container__li__a:hover {
-  color: #9356DC;
+  background: linear-gradient(to top left, #9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 footer .footer-container__li__icon {
   margin-right: 5px;

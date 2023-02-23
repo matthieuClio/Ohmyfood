@@ -40,7 +40,11 @@ footer {
 
             &__a {
                 &:hover {
-                    color: $primary;
+                    // color: $primary;
+                    @include backgroundLinearGradient(to top left, $primary, $secondary);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
                 }
             }
 
