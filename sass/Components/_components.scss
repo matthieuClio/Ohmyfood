@@ -26,10 +26,15 @@
     background-color: $dark-background-color;
     filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
     font-weight: normal;
-    transition: background-color 400ms ease;
+    transition: background-color 400ms ease, color 400ms ease;
 
     &:hover {
         background-color: rgb(245,237,255);
+        color: $primary;
+    }
+
+    &:hover .comp-order__icon {
+        color: $primary;
     }
 
     &__number {
@@ -49,6 +54,7 @@
         margin-right: 30px;
         color: $compOrderIcon;
         font-size: 22px;
+        transition: color 400ms ease;
     }
 }
 
