@@ -38,14 +38,16 @@ footer {
         &__li {
             font-size: 15px;
 
+            &__a {
+                &:hover {
+                    color: $primary;
+                }
+            }
+
             &__icon {
                 margin-right: 5px;
                 width: 15px;
                 font-size: 12px;
-            }
-
-            &__a {
-                color: $quatertiary;
             }
         }
     }
@@ -284,6 +286,10 @@ footer {
 
 .font-weight-bold {
     font-weight: bold;
+}
+
+.color-quatertiary {
+    color: $quatertiary;
 }
 
 .cursor-pointer {

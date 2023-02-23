@@ -117,13 +117,13 @@ footer .footer-container__title {
 footer .footer-container__li {
   font-size: 15px;
 }
+footer .footer-container__li__a:hover {
+  color: #9356DC;
+}
 footer .footer-container__li__icon {
   margin-right: 5px;
   width: 15px;
   font-size: 12px;
-}
-footer .footer-container__li__a {
-  color: #FFFFFF;
 }
 
 /* Layout menu */
@@ -343,6 +343,10 @@ footer .footer-container__li__a {
 
 .font-weight-bold {
   font-weight: bold;
+}
+
+.color-quatertiary {
+  color: #FFFFFF;
 }
 
 .cursor-pointer {
