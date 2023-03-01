@@ -61,6 +61,7 @@
 /* Component restaurants card */
 .comp-restaurants-card {
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 330px;
     border-radius: 20px;
@@ -113,15 +114,18 @@
                 margin-bottom: 5px;
             }
         }
+    }
 
-        &__icon {
-            display: flex;
-            justify-content: center;
-            position: relative;
-            margin-top: 5px;
-            width: 7.5%;
-            height: 20.5px;
-            font-size: 22px;
-        }
+    &__icon {
+        z-index: 8;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 40px;
+        right: 25px;
+        margin-top: 5px;
+        width: 7.5%;
+        height: 20.5px;
+        font-size: 22px;
     }
 }
