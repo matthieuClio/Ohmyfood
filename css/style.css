@@ -292,7 +292,7 @@ header .header-icon {
   animation: spinerLoading 3s ease-in-out forwards;
 }
 .spiner-loding__icon {
-  margin-top: 85px;
+  margin-top: 230px;
   color: purple;
   font-size: 100px;
   background: linear-gradient(to top, #9356DC, #FF79DA);

@@ -236,7 +236,7 @@ header {
     animation: spinerLoading 3s ease-in-out forwards;
 
     &__icon {
-        margin-top: 85px;
+        margin-top: 230px;
         color: purple;
         font-size: 100px;
         @include backgroundLinearGradient(to top, $primary, $secondary);
