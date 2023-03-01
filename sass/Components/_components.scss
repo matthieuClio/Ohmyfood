@@ -68,11 +68,6 @@
     overflow: hidden;
     filter: drop-shadow(0px 3px 8px rgb(0, 0, 0, 0.15));
 
-    &:hover .comp-restaurants-card__description {
-        background-color: $tertiary;
-        color: $quatertiary;
-    }
-
     @media screen and (min-width: 768px) {
         /* Fact margin top and bottom affected to this element */
         margin-right: 10px;
