@@ -148,10 +148,6 @@ header {
                 animation: menu 1.5s 200ms both;
                 overflow: hidden;
 
-                &:hover {
-                    color: $compRestaurantCardTags;
-                }
-
                 &:hover .container__menu__ul__li__price {
                     width: 110px;
                 }
@@ -227,7 +223,7 @@ header {
 .spiner-loding {
     z-index: 1;
     visibility: collapse;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
